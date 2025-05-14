@@ -2,152 +2,101 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Atlético San Jerónimo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: #0a2e5d;
-      color: #ffffff;
-    }
-
-    header {
-      background-color: #09264b;
-      padding: 20px;
-      text-align: center;
-    }
-
-    header img {
-      width: 100px;
-      margin-bottom: 10px;
-    }
-
-    header h1 {
-      font-size: 2.5em;
-      margin: 0;
-    }
-
-    nav {
-      background-color: #061d3b;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 15px 0;
-      font-weight: bold;
-    }
-
-    nav a {
-      color: #ffffff;
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      color: #ffcc00;
-    }
-
-    .section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    .section h2 {
-      color: #ffcc00;
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-
-    .players {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .player-card {
-      background-color: #123a6d;
-      padding: 15px;
-      border-radius: 10px;
-      width: calc(50% - 20px);
-    }
-
-    .player-card h3 {
-      margin-top: 0;
-      color: #ffffff;
-    }
-
-    footer {
-      background-color: #061d3b;
-      color: #bbb;
-      text-align: center;
-      padding: 20px;
-    }
-
-    @media (max-width: 600px) {
-      .player-card {
-        width: 100%;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/img/escudo.png" type="image/png" />
 </head>
 <body>
   <header>
-    <img src="https://via.placeholder.com/100x100.png?text=Escudo" alt="Escudo del Atlético San Jerónimo" />
-    <h1>Atlético San Jerónimo</h1>
+    <div class="logo">
+      <img src="assets/img/escudo.png" alt="Escudo Atlético San Jerónimo">
+      <h1>Atlético San Jerónimo</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#plantilla">Plantilla</a></li>
+        <li><a href="#estadio">Estadio</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#patrocinadores">Patrocinadores</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#historia">Historia</a>
-    <a href="#plantilla">Plantilla</a>
-    <a href="#estadio">Estadio</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-
-  <div class="section" id="historia">
-    <h2>Historia</h2>
-    <p>Fundado en 2024 en el corazón del barrio sevillano de San Jerónimo, el Atlético San Jerónimo nació para ocupar el hueco dejado por el Sevilla Atlético. Impulsado por dos figuras locales —Lucía Montero, propietaria del bar El Rincón de Manolo, y Ernesto Vidal, entrenador de juveniles— el club representa el alma popular y trabajadora del barrio.</p>
-  </div>
-
-  <div class="section" id="plantilla">
-    <h2>Plantilla 2024-25</h2>
-    <div class="players">
-      <div class="player-card">
-        <h3>David López (DC/ED/EI)</h3>
-        <p><strong>Edad:</strong> 18</p>
-        <p><strong>Nacionalidad:</strong> España</p>
-        <p><strong>Valoración:</strong> 63 | <strong>Potencial:</strong> 88</p>
-        <p><strong>Pierna mala:</strong> ★★★★☆ | <strong>Filigranas:</strong> ★★★★☆</p>
-        <p><strong>Altura:</strong> 1.78m | <strong>Peso:</strong> 70kg</p>
-      </div>
-
-      <div class="player-card">
-        <h3>Jesús Carmona (MCD)</h3>
-        <p><strong>Edad:</strong> 25</p>
-        <p><strong>Nacionalidad:</strong> España</p>
-        <p><strong>Valoración:</strong> 67 | <strong>Potencial:</strong> 74</p>
-        <p><strong>Pierna mala:</strong> ★★★☆☆ | <strong>Filigranas:</strong> ★★☆☆☆</p>
-        <p><strong>Altura:</strong> 1.81m | <strong>Peso:</strong> 75kg</p>
-      </div>
-
-      <!-- Añade más jugadores aquí -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Pasión por el barrio. Fútbol con alma.</h2>
+      <p>Bienvenidos al sitio oficial del Atlético San Jerónimo.</p>
     </div>
-  </div>
+  </section>
 
-  <div class="section" id="estadio">
+<section id="historia">
+  <h2>Historia del Club</h2>
+  <p>
+    Fundado en <strong>1971</strong> en el barrio sevillano de San Jerónimo, el Atlético San Jerónimo nació como un modesto club amateur impulsado por vecinos, trabajadores del ferrocarril y comerciantes locales. A lo largo de más de cinco décadas, el club ha sido el reflejo del espíritu combativo y comunitario del barrio, luchando año tras año desde las categorías regionales andaluzas.
+  </p>
+  <p>
+    En la temporada <strong>2024-2025</strong>, el equipo compite en la <strong>Primera Federación</strong>, tercera división del fútbol español. Aunque nunca ha conquistado un título oficial, todos sus ascensos han llegado a través de intensos <strong>playoffs</strong>, reforzando su reputación de equipo resistente y batallador.
+  </p>
+  <p>
+    Su estadio, el <strong>Campo del Norte</strong>, tiene capacidad para <strong>10.000 espectadores</strong> y se ha convertido en una auténtica fortaleza barrial. El club mantiene una fuerte rivalidad con el Sevilla FC, acentuada por su ascenso reciente y su crecimiento constante en la escena nacional.
+  </p>
+</section>
+
+  <section id="plantilla">
+    <h2>Plantilla 2024/25</h2>
+    <div class="jugadores-grid">
+      <!-- Aquí irán tarjetas individuales de jugadores -->
+      <div class="jugador">
+        <img src="assets/img/david_lopez.png" alt="David López">
+        <h3>David López</h3>
+        <p>Delantero (DC, ED, EI)</p>
+        <p>18 años | España</p>
+        <p>Valoración: 63 | Potencial: 87</p>
+      </div>
+      <!-- Más jugadores aquí -->
+    </div>
+  </section>
+
+  <section id="estadio">
     <h2>Estadio</h2>
-    <p>El Campo del Norte, ubicado junto a la antigua estación de tren de San Jerónimo, fue inaugurado meses antes de la fundación del club. Hoy acoge cada fin de semana los sueños del equipo y su afición.</p>
-  </div>
+    <img src="assets/img/estadio.jpg" alt="Estadio del Atlético San Jerónimo">
+    <p>
+      El <strong>Campo del Norte</strong>, inaugurado en 2024 justo antes de la fundación del club, se ubica al lado de la antigua estación de tren de San Jerónimo. Hoy es el templo del fútbol obrero sevillano, con capacidad para 4.500 almas que rugen en cada jornada.
+    </p>
+  </section>
 
-  <div class="section" id="contacto">
+  <section id="noticias">
+    <h2>Noticias</h2>
+    <article>
+      <h3>Victoria histórica ante el Betis Deportivo</h3>
+      <p>El Atlético San Jerónimo se impuso 2-1 en un derbi lleno de tensión y orgullo barrial.</p>
+    </article>
+  </section>
+
+  <section id="patrocinadores">
+    <h2>Patrocinadores Oficiales</h2>
+    <div class="sponsors">
+      <img src="assets/img/cajasol.png" alt="Cajasol" />
+      <img src="assets/img/iberipan.png" alt="Iberipan" />
+      <img src="assets/img/helados_tierra.png" alt="Helados Tierra" />
+    </div>
+    <p>Gracias a nuestros socios por hacer realidad este sueño deportivo.</p>
+  </section>
+
+  <section id="contacto">
     <h2>Contacto</h2>
-    <p><strong>Email:</strong> contacto@atleticosanjeronimo.com</p>
-    <p><strong>Dirección:</strong> Barrio de San Jerónimo, Sevilla</p>
-    <p><strong>Instagram:</strong> @AtleticoSanJeronimo</p>
-  </div>
+    <p>Email: contacto@atleticosanjeronimo.com</p>
+    <p>Dirección: Av. José Galán Merino, San Jerónimo, Sevilla</p>
+    <p>Twitter: @AtletiSanJero | Instagram: @AtletiSanJero</p>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Atlético San Jerónimo. Todos los derechos reservados.</p>
+    <p>&copy; 2025 Atlético San Jerónimo | Web creada con GitHub Pages</p>
   </footer>
+
+  <script src="js/scripts.js"></script>
 </body>
 </html>

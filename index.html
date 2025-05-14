@@ -4,100 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Club Atlético San Jerónimo</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <!-- Header y Navegación -->
   <header>
-    <div class="logo">
-      <img src="assets/img/escudo.png" alt="Escudo Atlético San Jerónimo">
-      <h1>Club Atlético San Jerónimo</h1>
+    <div class="navbar">
+      <div class="logo">
+        <img src="assets/images/logo.png" alt="Atlético San Jerónimo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="equipo.html">Equipo</a></li>
+          <li><a href="estadio.html">Estadio</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#historia">Historia</a></li>
-        <li><a href="#plantilla">Plantilla</a></li>
-        <li><a href="#estadio">Estadio</a></li>
-        <li><a href="#noticias">Noticias</a></li>
-        <li><a href="#patrocinadores">Patrocinadores</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h2>Pasión por el barrio. Fútbol con alma.</h2>
-      <p>Bienvenidos al sitio oficial del Atlético San Jerónimo.</p>
-    </div>
-  </section>
+  <!-- Slider o Carrusel de imágenes -->
+  <div class="carousel">
+    <img src="assets/images/estadio.jpg" alt="Estadio San Jerónimo">
+    <img src="assets/images/jugadores.jpg" alt="Equipo Atlético San Jerónimo">
+    <img src="assets/images/logo.png" alt="Logo Atlético San Jerónimo">
+  </div>
 
-<section id="historia">
-  <h2>Historia del Club</h2>
-  <p>
-    Fundado en <strong>1971</strong> en el barrio sevillano de San Jerónimo, el Club Atlético San Jerónimo nació como un modesto club amateur impulsado por vecinos, trabajadores del ferrocarril y comerciantes locales. A lo largo de más de cinco décadas, el club ha sido el reflejo del espíritu combativo y comunitario del barrio, luchando año tras año desde las categorías regionales andaluzas.
-  </p>
-  <p>
-    En la temporada <strong>2024-2025</strong>, el equipo compite en la <strong>Primera Federación</strong>, tercera división del fútbol español. Aunque nunca ha conquistado un título oficial, todos sus ascensos han llegado a través de intensos <strong>playoffs</strong>, reforzando su reputación de equipo resistente y batallador.
-  </p>
-  <p>
-    Su estadio, el <strong>Campo del Norte</strong>, tiene capacidad para <strong>10.000 espectadores</strong> y se ha convertido en una auténtica fortaleza barrial. El club mantiene una fuerte rivalidad con el Sevilla FC, acentuada por su ascenso reciente y su crecimiento constante en la escena nacional.
-  </p>
-</section>
+  <!-- Sección Principal -->
+  <main>
+    <section class="welcome">
+      <h1>Bienvenidos al Club Atlético San Jerónimo</h1>
+      <p>Un club con una historia rica, comprometido con la excelencia y el deporte. Descubre más sobre nosotros.</p>
+    </section>
 
-  <section id="plantilla">
-    <h2>Plantilla 2024/25</h2>
-    <div class="jugadores-grid">
-      <!-- Aquí irán tarjetas individuales de jugadores -->
-      <div class="jugador">
-        <img src="assets/img/david_lopez.png" alt="David López">
-        <h3>David López</h3>
-        <p>Delantero (DC, ED, EI)</p>
-        <p>18 años | España</p>
-        <p>Valoración: 63 | Potencial: 87</p>
+    <section class="news">
+      <h2>Últimas Noticias</h2>
+      <div class="news-item">
+        <h3>Victoria en el Derbi</h3>
+        <p>El Atlético San Jerónimo logra una gran victoria en el derbi local frente al Sevilla FC...</p>
+        <a href="noticias.html">Leer más</a>
       </div>
-      <!-- Más jugadores aquí -->
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <section id="estadio">
-    <h2>Estadio</h2>
-    <img src="assets/img/estadio.jpg" alt="Estadio del Atlético San Jerónimo">
-    <p>
-      El <strong>Campo del Norte</strong>, inaugurado en 2024 justo antes de la fundación del club, se ubica al lado de la antigua estación de tren de San Jerónimo. Hoy es el templo del fútbol obrero sevillano, con capacidad para 4.500 almas que rugen en cada jornada.
-    </p>
-  </section>
-
-  <section id="noticias">
-    <h2>Noticias</h2>
-    <article>
-      <h3>¡Patrocinadores de la temporada 2024-2025 ya anunciados!</h3>
-      <p>Los nuevos patrocinadores de esta temporada son los siguientes, para las equipaciones: Adidas y Aldi. Para el estadio: Heineken y el Metro de Sevilla.</p>
-    </article>
-  </section>
-
-  <section id="patrocinadores">
-    <h2>Patrocinadores Oficiales</h2>
-    <div class="sponsors">
-      <img src="assets/img/adidas" alt="Adidas" />
-      <img src="assets/img/aldi.png" alt="Aldi" />
-      <img src="assets/img/heineken.png" alt="Heineken" />
-      <img src="assets/img/metrosevilla.png" alt="Metro de Sevilla" />
-      <img src="assets/img/heineken.png" alt="Heineken" />
-    </div>
-    <p>Gracias a nuestros socios por hacer realidad este sueño deportivo.</p>
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Email: contacto@clubatleticosanjeronimo.com</p>
-    <p>Dirección: Av. José Galán Merino, San Jerónimo, Sevilla</p>
-    <p>Twitter: @CASanJero | Instagram: @ca_sanjeronimo</p>
-  </section>
-
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Club Atlético San Jerónimo | Web creada con GitHub Pages</p>
+    <p>&copy; 2025 Club Atlético San Jerónimo. Todos los derechos reservados.</p>
   </footer>
 
-  <script src="js/scripts.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

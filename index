@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlético San Jerónimo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #0a2e5d;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #09264b;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #061d3b;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      color: #ffcc00;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .players {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .player-card {
+      background-color: #123a6d;
+      padding: 15px;
+      border-radius: 10px;
+      width: calc(50% - 20px);
+    }
+
+    .player-card h3 {
+      margin-top: 0;
+      color: #ffffff;
+    }
+
+    footer {
+      background-color: #061d3b;
+      color: #bbb;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .player-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/100x100.png?text=Escudo" alt="Escudo del Atlético San Jerónimo" />
+    <h1>Atlético San Jerónimo</h1>
+  </header>
+
+  <nav>
+    <a href="#historia">Historia</a>
+    <a href="#plantilla">Plantilla</a>
+    <a href="#estadio">Estadio</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="section" id="historia">
+    <h2>Historia</h2>
+    <p>Fundado en 2024 en el corazón del barrio sevillano de San Jerónimo, el Atlético San Jerónimo nació para ocupar el hueco dejado por el Sevilla Atlético. Impulsado por dos figuras locales —Lucía Montero, propietaria del bar El Rincón de Manolo, y Ernesto Vidal, entrenador de juveniles— el club representa el alma popular y trabajadora del barrio.</p>
+  </div>
+
+  <div class="section" id="plantilla">
+    <h2>Plantilla 2024-25</h2>
+    <div class="players">
+      <div class="player-card">
+        <h3>David López (DC/ED/EI)</h3>
+        <p><strong>Edad:</strong> 18</p>
+        <p><strong>Nacionalidad:</strong> España</p>
+        <p><strong>Valoración:</strong> 63 | <strong>Potencial:</strong> 88</p>
+        <p><strong>Pierna mala:</strong> ★★★★☆ | <strong>Filigranas:</strong> ★★★★☆</p>
+        <p><strong>Altura:</strong> 1.78m | <strong>Peso:</strong> 70kg</p>
+      </div>
+
+      <div class="player-card">
+        <h3>Jesús Carmona (MCD)</h3>
+        <p><strong>Edad:</strong> 25</p>
+        <p><strong>Nacionalidad:</strong> España</p>
+        <p><strong>Valoración:</strong> 67 | <strong>Potencial:</strong> 74</p>
+        <p><strong>Pierna mala:</strong> ★★★☆☆ | <strong>Filigranas:</strong> ★★☆☆☆</p>
+        <p><strong>Altura:</strong> 1.81m | <strong>Peso:</strong> 75kg</p>
+      </div>
+
+      <!-- Añade más jugadores aquí -->
+    </div>
+  </div>
+
+  <div class="section" id="estadio">
+    <h2>Estadio</h2>
+    <p>El Campo del Norte, ubicado junto a la antigua estación de tren de San Jerónimo, fue inaugurado meses antes de la fundación del club. Hoy acoge cada fin de semana los sueños del equipo y su afición.</p>
+  </div>
+
+  <div class="section" id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Email:</strong> contacto@atleticosanjeronimo.com</p>
+    <p><strong>Dirección:</strong> Barrio de San Jerónimo, Sevilla</p>
+    <p><strong>Instagram:</strong> @AtleticoSanJeronimo</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Atlético San Jerónimo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

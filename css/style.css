@@ -130,6 +130,38 @@ nav ul li a:hover {
   border-color: #005fa3;
 }
 
+/* Aquí van los nuevos estilos para el menú */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #f4b400;
+  color: white;
+  border-radius: 5px;
+}
+
 /* Pie de página */
 footer {
   background-color: #004c8c;
